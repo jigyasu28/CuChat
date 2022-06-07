@@ -1,0 +1,152 @@
+.messenger-container{
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  height: 100%;
+  width: 100%;
+  background: #f6f7f8;
+}
+
+.messenger-profile-header{
+  display: flex;
+  flex-direction: row;
+  background: #ededed;
+  padding: 10px;
+  align-items: center;
+}
+
+.messenger-profile-info{
+  display: flex;
+  flex-direction: row;
+  background: #ededed;
+  align-items: center;
+  gap: 10px;
+}
+
+.messenger-profile-image{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.contact-name{
+  font-size: 16px;
+  color: black;
+}
+
+.message-container{
+  display: flex;
+  flex-direction: column;
+  height: 81vh;
+  overflow-y: auto;
+  background: #e5ddd6;
+}
+
+.message-div-sent{
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 15px;
+  margin-right: 80px;
+}
+
+.message-div-received{
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px 15px;
+  margin-left: 80px;
+}
+
+.sent{
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.received{
+  background-color: white;
+}
+
+.message{
+  flex-direction: column;
+  display: flex;
+  padding: 8px 10px;
+  border-radius: 4px;
+  max-width: 50%;
+  color: #303030;
+  font-size: 14px;
+}
+
+.emoji-image{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.profile-image:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+
+.contact-name:hover{
+  cursor: pointer;
+}
+
+.group-name:hover{
+  cursor: pointer;
+}
+
+.message-time-received{
+  font-size: 10px;
+  text-align: left;
+}
+
+.message-time-sent{
+  font-size: 10px;
+  text-align: right;
+}
+
+.offline{
+  background: grey;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px;
+  box-shadow: 0px 0px 2px 1px grey;
+}
+.offline-text{
+  color: red;
+}
+
+.online{
+  background: rgb(71, 228, 71);
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px;
+  box-shadow: 0px 0px 2px 1px rgb(71, 228, 71);
+}
+.online-text{
+  color: green;
+}
+
+.nochat-message{
+  height: 100vh;
+  font-size: 2.5vw;
+}
+
+.noChat{
+  position: relative;
+  margin-top: 50vh;
+  left: 10vw;
+}
+
+.loading-chat{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #e5ddd6;
+}

@@ -1,0 +1,45 @@
+.search-loading{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-big{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background: white;
+    cursor: pointer;
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.contact-big:hover {
+    background: #ebebeb;
+}
+
+.profile-image-big{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.MuiButton-custom{
+    color: white !important;
+    background-color: rgb(41, 55, 181) !important;
+}
+
+
+.MuiButton-custom:hover{
+    background-color: rgb(44, 148, 232) !important;
+}
+
+.not-found{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}

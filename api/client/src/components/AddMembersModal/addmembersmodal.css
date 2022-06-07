@@ -1,0 +1,17 @@
+.member-selected{
+    background-color: rgb(184, 184, 184) !important;
+}
+
+.bordered-contact{
+    border: solid 1px grey;
+    border-radius: 3px;
+    margin: 6px;
+    width: 95% !important;
+    padding: 10px;
+}
+
+.member-container{
+    height: 350px;
+    overflow: scroll;
+    overflow-x: visible !important;
+}
